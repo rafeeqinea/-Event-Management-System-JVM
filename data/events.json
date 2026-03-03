@@ -1,0 +1,523 @@
+[
+  {
+    "id": "efe43edf-6c55-4694-a898-1db7ad03035f",
+    "title": "Morning Tech Conference",
+    "description": "Early morning technology conference at Royal Festival Hall",
+    "type": "Conference",
+    "startTime": "2025-12-01T09:00:00",
+    "endTime": "2025-12-01T12:00:00",
+    "venueId": 1,
+    "estimatedAttendees": 2000,
+    "attendeeIds": [
+      "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6",
+      "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7"
+    ]
+  },
+  {
+    "id": "4ce6a94a-3489-4087-80fe-2b23700ba358",
+    "title": "Afternoon Business Summit",
+    "description": "Business summit immediately after morning conference - CONFLICT scenario",
+    "type": "Conference",
+    "startTime": "2025-12-01T13:00:00",
+    "endTime": "2025-12-01T17:00:00",
+    "venueId": 1,
+    "estimatedAttendees": 2500,
+    "attendeeIds": [
+      "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8"
+    ]
+  },
+  {
+    "id": "43c74083-4933-4e34-9d9f-3f10269a27a9",
+    "title": "Evening Gala",
+    "description": "Evening event at Royal Festival Hall - fully booked day",
+    "type": "Social",
+    "startTime": "2025-12-01T19:00:00",
+    "endTime": "2025-12-01T23:00:00",
+    "venueId": 1,
+    "estimatedAttendees": 2700,
+    "attendeeIds": [
+      "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f9"
+    ]
+  },
+  {
+    "id": "e310f5b9-8b74-4146-bbe0-149b5b14778c",
+    "title": "ExCeL Morning Exhibition",
+    "description": "Large exhibition at ExCeL London - morning slot",
+    "type": "Conference",
+    "startTime": "2025-12-02T09:00:00",
+    "endTime": "2025-12-02T13:00:00",
+    "venueId": 2,
+    "estimatedAttendees": 3000,
+    "attendeeIds": [
+      "e5f6a7b8-c9d0-41e2-f3a4-b5c6d7e8f9a0"
+    ]
+  },
+  {
+    "id": "6eefaaa6-7058-46c7-b162-c24a2071e00d",
+    "title": "ExCeL Evening Event",
+    "description": "Evening event at ExCeL - GAP exists between 14:00-18:00",
+    "type": "Conference",
+    "startTime": "2025-12-02T19:00:00",
+    "endTime": "2025-12-02T22:00:00",
+    "venueId": 2,
+    "estimatedAttendees": 4000,
+    "attendeeIds": [
+      "f6a7b8c9-d0e1-42f3-a4b5-c6d7e8f9a0b1"
+    ]
+  },
+  {
+    "id": "09a36e0d-d26f-432a-8bb1-3a8ddd8084a4",
+    "title": "Small Workshop Morning",
+    "description": "Morning workshop at The Brewery",
+    "type": "Workshop",
+    "startTime": "2025-12-03T10:00:00",
+    "endTime": "2025-12-03T13:00:00",
+    "venueId": 17,
+    "estimatedAttendees": 150,
+    "attendeeIds": [
+      "a7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2"
+    ]
+  },
+  {
+    "id": "21c8b079-c7a9-407b-8868-001c4b11258b",
+    "title": "Small Workshop Afternoon",
+    "description": "Afternoon workshop at The Brewery - back to back with morning",
+    "type": "Workshop",
+    "startTime": "2025-12-03T14:00:00",
+    "endTime": "2025-12-03T17:00:00",
+    "venueId": 17,
+    "estimatedAttendees": 200,
+    "attendeeIds": [
+      "b8c9d0e1-f2a3-44b5-c6d7-e8f9a0b1c2d3"
+    ]
+  },
+  {
+    "id": "a7802113-0872-4791-8667-26e4693e1b62",
+    "title": "O2 Arena Concert",
+    "description": "Large concert at O2 Arena",
+    "type": "Social",
+    "startTime": "2025-12-05T19:00:00",
+    "endTime": "2025-12-05T23:00:00",
+    "venueId": 3,
+    "estimatedAttendees": 18000,
+    "attendeeIds": [
+      "c9d0e1f2-a3b4-45c6-d7e8-f9a0b1c2d3e4"
+    ]
+  },
+  {
+    "id": "0452a4ae-2344-4582-bcb1-5ef2e3fdc91d",
+    "title": "O2 Arena Next Day Concert",
+    "description": "Concert day after previous - O2 fully booked weekend",
+    "type": "Social",
+    "startTime": "2025-12-06T19:00:00",
+    "endTime": "2025-12-06T23:00:00",
+    "venueId": 3,
+    "estimatedAttendees": 19000,
+    "attendeeIds": [
+      "d0e1f2a3-b4c5-46d7-e8f9-a0b1c2d3e4f5"
+    ]
+  },
+  {
+    "id": "e60e9e63-6f17-4b36-9ad0-0fa053133698",
+    "title": "Old Billingsgate Morning Event",
+    "description": "Morning event at Old Billingsgate",
+    "type": "Conference",
+    "startTime": "2025-12-07T09:00:00",
+    "endTime": "2025-12-07T12:00:00",
+    "venueId": 8,
+    "estimatedAttendees": 1500,
+    "attendeeIds": [
+      "e1f2a3b4-c5d6-47e8-f9a0-b1c2d3e4f5a6"
+    ]
+  },
+  {
+    "id": "2deb53de-8bc6-4190-9e5a-2188b43a93f5",
+    "title": "Barbican Concert",
+    "description": "Evening concert at Barbican Centre",
+    "type": "Social",
+    "startTime": "2025-12-08T19:30:00",
+    "endTime": "2025-12-08T22:00:00",
+    "venueId": 5,
+    "estimatedAttendees": 1900,
+    "attendeeIds": [
+      "f2a3b4c5-d6e7-48f9-a0b1-c2d3e4f5a6b7"
+    ]
+  },
+  {
+    "id": "f62ff055-2eee-4f49-9d53-ebe49a417b5f",
+    "title": "Royal Festival Hall Week 2 Morning",
+    "description": "Another fully booked day at Royal Festival Hall",
+    "type": "Conference",
+    "startTime": "2025-12-09T09:00:00",
+    "endTime": "2025-12-09T13:00:00",
+    "venueId": 1,
+    "estimatedAttendees": 2600,
+    "attendeeIds": [
+      "a3b4c5d6-e7f8-49a0-b1c2-d3e4f5a6b7c8"
+    ]
+  },
+  {
+    "id": "91f93dab-bf32-4dda-97c9-99cc6eae938a",
+    "title": "Royal Festival Hall Week 2 Afternoon",
+    "description": "Afternoon slot at Royal Festival Hall",
+    "type": "Seminar",
+    "startTime": "2025-12-09T14:00:00",
+    "endTime": "2025-12-09T18:00:00",
+    "venueId": 1,
+    "estimatedAttendees": 2400,
+    "attendeeIds": [
+      "b4c5d6e7-f8a9-40b1-c2d3-e4f5a6b7c8d9"
+    ]
+  },
+  {
+    "id": "a9a8e304-e684-43ef-b5d3-787d68c13f28",
+    "title": "Tobacco Dock Event",
+    "description": "Event at Tobacco Dock - this venue has capacity for 3500",
+    "type": "Conference",
+    "startTime": "2025-12-10T10:00:00",
+    "endTime": "2025-12-10T18:00:00",
+    "venueId": 7,
+    "estimatedAttendees": 3000,
+    "attendeeIds": [
+      "c5d6e7f8-a9b0-41c2-d3e4-f5a6b7c8d9e0"
+    ]
+  },
+  {
+    "id": "9e4e52ae-cf99-4ab8-b721-3eb9873e689c",
+    "title": "Tobacco Dock Next Day",
+    "description": "Back to back at Tobacco Dock",
+    "type": "Conference",
+    "startTime": "2025-12-11T10:00:00",
+    "endTime": "2025-12-11T18:00:00",
+    "venueId": 7,
+    "estimatedAttendees": 3200,
+    "attendeeIds": [
+      "d6e7f8a9-b0c1-42d3-e4f5-a6b7c8d9e0f1"
+    ]
+  },
+  {
+    "id": "8dd90ea4-55a4-418c-9cef-7b327c6cb737",
+    "title": "ExCeL Week 2 Event",
+    "description": "ExCeL booking for week 2",
+    "type": "Conference",
+    "startTime": "2025-12-10T09:00:00",
+    "endTime": "2025-12-10T17:00:00",
+    "venueId": 2,
+    "estimatedAttendees": 4500,
+    "attendeeIds": [
+      "e7f8a9b0-c1d2-43e4-f5a6-b7c8d9e0f1a2"
+    ]
+  },
+  {
+    "id": "a3912725-ad4b-4c87-9ba5-21cce21e62d1",
+    "title": "The Brewery Week 2",
+    "description": "The Brewery booking",
+    "type": "Meeting",
+    "startTime": "2025-12-11T09:00:00",
+    "endTime": "2025-12-11T12:00:00",
+    "venueId": 17,
+    "estimatedAttendees": 800,
+    "attendeeIds": [
+      "f8a9b0c1-d2e3-44f5-a6b7-c8d9e0f1a2b3"
+    ]
+  },
+  {
+    "id": "386c4d8b-0b6f-433a-be9a-29c393a6a0fd",
+    "title": "The Brewery Afternoon Week 2",
+    "description": "Afternoon at The Brewery - small gap at lunch",
+    "type": "Workshop",
+    "startTime": "2025-12-11T14:00:00",
+    "endTime": "2025-12-11T18:00:00",
+    "venueId": 17,
+    "estimatedAttendees": 900,
+    "attendeeIds": [
+      "a9b0c1d2-e3f4-45a6-b7c8-d9e0f1a2b3c4"
+    ]
+  },
+  {
+    "id": "15c9d3b6-b2f4-42d9-9cea-c94ebc31f375",
+    "title": "Weekend Concert at Roundhouse",
+    "description": "Weekend event at Roundhouse Camden",
+    "type": "Social",
+    "startTime": "2025-12-13T20:00:00",
+    "endTime": "2025-12-14T01:00:00",
+    "venueId": 9,
+    "estimatedAttendees": 3000,
+    "attendeeIds": [
+      "b0c1d2e3-f4a5-46b7-c8d9-e0f1a2b3c4d5"
+    ]
+  },
+  {
+    "id": "ab4c6765-cfde-49b5-ab3b-2f9b7a2ac28d",
+    "title": "Olympia Exhibition",
+    "description": "Large exhibition at Olympia London",
+    "type": "Conference",
+    "startTime": "2025-12-14T10:00:00",
+    "endTime": "2025-12-14T18:00:00",
+    "venueId": 10,
+    "estimatedAttendees": 15000,
+    "attendeeIds": [
+      "c1d2e3f4-a5b6-47c8-d9e0-f1a2b3c4d5e6"
+    ]
+  },
+  {
+    "id": "4f324ea6-34ee-4262-8cd4-0411980d3b94",
+    "title": "Olympia Next Day",
+    "description": "Olympia booked for consecutive days",
+    "type": "Conference",
+    "startTime": "2025-12-15T10:00:00",
+    "endTime": "2025-12-15T18:00:00",
+    "venueId": 10,
+    "estimatedAttendees": 16000,
+    "attendeeIds": [
+      "d2e3f4a5-b6c7-48d9-e0f1-a2b3c4d5e6f7"
+    ]
+  },
+  {
+    "id": "c97db1c8-2ed8-4172-ad6e-5c7e2bfeb26c",
+    "title": "Week 3 Royal Festival Hall",
+    "description": "Continuing heavy booking at Royal Festival Hall",
+    "type": "Conference",
+    "startTime": "2025-12-16T10:00:00",
+    "endTime": "2025-12-16T17:00:00",
+    "venueId": 1,
+    "estimatedAttendees": 2500,
+    "attendeeIds": [
+      "e3f4a5b6-c7d8-49e0-f1a2-b3c4d5e6f7a8"
+    ]
+  },
+  {
+    "id": "3b54c294-17d9-466c-8b9d-0b4e8bfa7330",
+    "title": "ExCeL Week 3 Morning",
+    "description": "ExCeL morning booking",
+    "type": "Conference",
+    "startTime": "2025-12-17T09:00:00",
+    "endTime": "2025-12-17T13:00:00",
+    "venueId": 2,
+    "estimatedAttendees": 4000,
+    "attendeeIds": [
+      "f4a5b6c7-d8e9-40f1-a2b3-c4d5e6f7a8b9"
+    ]
+  },
+  {
+    "id": "c62e8690-d2f0-4199-9ef6-7f5d0850171a",
+    "title": "ExCeL Week 3 Evening",
+    "description": "ExCeL evening - gap exists 14:00-18:00",
+    "type": "Conference",
+    "startTime": "2025-12-17T19:00:00",
+    "endTime": "2025-12-17T22:00:00",
+    "venueId": 2,
+    "estimatedAttendees": 3500,
+    "attendeeIds": [
+      "a5b6c7d8-e9f0-41a2-b3c4-d5e6f7a8b9c0"
+    ]
+  },
+  {
+    "id": "5388fb6e-8fe8-4194-bf60-3d4c14d07e46",
+    "title": "Alexandra Palace Event",
+    "description": "Large event at Alexandra Palace",
+    "type": "Conference",
+    "startTime": "2025-12-18T11:00:00",
+    "endTime": "2025-12-18T20:00:00",
+    "venueId": 6,
+    "estimatedAttendees": 9000,
+    "attendeeIds": [
+      "b6c7d8e9-f0a1-42b3-c4d5-e6f7a8b9c0d1"
+    ]
+  },
+  {
+    "id": "1df64768-ef6d-416e-b122-ae46e18f03e0",
+    "title": "Troxy Concert",
+    "description": "Concert at Troxy venue",
+    "type": "Social",
+    "startTime": "2025-12-19T19:00:00",
+    "endTime": "2025-12-19T23:00:00",
+    "venueId": 11,
+    "estimatedAttendees": 3000,
+    "attendeeIds": [
+      "c7d8e9f0-a1b2-43c4-d5e6-f7a8b9c0d1e2"
+    ]
+  },
+  {
+    "id": "a003cdc4-8ab6-4c70-bfb7-1094b049b3ff",
+    "title": "Electric Ballroom Night",
+    "description": "Evening event at Electric Ballroom",
+    "type": "Social",
+    "startTime": "2025-12-19T20:00:00",
+    "endTime": "2025-12-20T02:00:00",
+    "venueId": 12,
+    "estimatedAttendees": 1400,
+    "attendeeIds": [
+      "d8e9f0a1-b2c3-44d5-e6f7-a8b9c0d1e2f3"
+    ]
+  },
+  {
+    "id": "80924360-0ee5-47f6-bdaf-c8dfb4d5847f",
+    "title": "Ministry of Sound Weekend",
+    "description": "Weekend party at Ministry of Sound",
+    "type": "Social",
+    "startTime": "2025-12-20T22:00:00",
+    "endTime": "2025-12-21T04:00:00",
+    "venueId": 13,
+    "estimatedAttendees": 1500,
+    "attendeeIds": [
+      "e9f0a1b2-c3d4-45e6-f7a8-b9c0d1e2f3a4"
+    ]
+  },
+  {
+    "id": "fcaea9cb-3c34-4889-922b-a729e6607c8a",
+    "title": "Printworks Saturday",
+    "description": "Saturday event at Printworks London",
+    "type": "Social",
+    "startTime": "2025-12-20T14:00:00",
+    "endTime": "2025-12-21T00:00:00",
+    "venueId": 14,
+    "estimatedAttendees": 4500,
+    "attendeeIds": [
+      "f0a1b2c3-d4e5-46f7-a8b9-c0d1e2f3a4b5"
+    ]
+  },
+  {
+    "id": "fad286fb-2802-4429-bd47-1d6d4a3d722a",
+    "title": "The Brewery Week 4",
+    "description": "Weekly meeting at The Brewery",
+    "type": "Meeting",
+    "startTime": "2025-12-22T10:00:00",
+    "endTime": "2025-12-22T14:00:00",
+    "venueId": 17,
+    "estimatedAttendees": 500,
+    "attendeeIds": [
+      "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c7"
+    ]
+  },
+  {
+    "id": "c0e1c634-96c6-4acf-85fa-b0bd4686a9ba",
+    "title": "Christmas Week Royal Festival Hall",
+    "description": "Christmas event at Royal Festival Hall",
+    "type": "Social",
+    "startTime": "2025-12-23T19:00:00",
+    "endTime": "2025-12-23T23:00:00",
+    "venueId": 1,
+    "estimatedAttendees": 2700,
+    "attendeeIds": [
+      "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d8"
+    ]
+  },
+  {
+    "id": "8955d00a-b7dc-4039-b064-2fb72424e473",
+    "title": "New Year Prep at O2",
+    "description": "O2 Arena New Year preparation event",
+    "type": "Social",
+    "startTime": "2025-12-30T18:00:00",
+    "endTime": "2025-12-31T02:00:00",
+    "venueId": 3,
+    "estimatedAttendees": 19000,
+    "attendeeIds": [
+      "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e9"
+    ]
+  },
+  {
+    "id": "aad45b16-7cad-420a-8e20-4730f2d57f4d",
+    "title": "New Year\u0027s Eve Gala",
+    "description": "Major New Year\u0027s Eve celebration at ExCeL",
+    "type": "Social",
+    "startTime": "2025-12-31T20:00:00",
+    "endTime": "2026-01-01T02:00:00",
+    "venueId": 2,
+    "estimatedAttendees": 5000,
+    "attendeeIds": [
+      "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f0"
+    ]
+  },
+  {
+    "id": "46dc70df-68bb-431e-a46d-7b0dd989ffce",
+    "title": "January Conference at Olympia",
+    "description": "Start of year conference",
+    "type": "Conference",
+    "startTime": "2026-01-05T09:00:00",
+    "endTime": "2026-01-05T18:00:00",
+    "venueId": 10,
+    "estimatedAttendees": 12000,
+    "attendeeIds": [
+      "e5f6a7b8-c9d0-41e2-f3a4-b5c6d7e8f9a1"
+    ]
+  },
+  {
+    "id": "0be28472-c269-40ba-bb21-7d22efd67c6d",
+    "title": "January ExCeL Morning",
+    "description": "Morning event at ExCeL",
+    "type": "Conference",
+    "startTime": "2026-01-07T09:00:00",
+    "endTime": "2026-01-07T13:00:00",
+    "venueId": 2,
+    "estimatedAttendees": 3000,
+    "attendeeIds": [
+      "f6a7b8c9-d0e1-42f3-a4b5-c6d7e8f9a0b2"
+    ]
+  },
+  {
+    "id": "ac30a81e-c980-4850-8cdf-0bc3199b911c",
+    "title": "January ExCeL Afternoon",
+    "description": "Afternoon event at ExCeL - gap exists around lunch",
+    "type": "Workshop",
+    "startTime": "2026-01-07T15:00:00",
+    "endTime": "2026-01-07T19:00:00",
+    "venueId": 2,
+    "estimatedAttendees": 2500,
+    "attendeeIds": [
+      "a7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c3"
+    ]
+  },
+  {
+    "id": "a87b19a5-f727-4827-bfac-1ddb0d82470c",
+    "title": "The Brewery January Workshop",
+    "description": "January workshop series starts",
+    "type": "Workshop",
+    "startTime": "2026-01-08T10:00:00",
+    "endTime": "2026-01-08T16:00:00",
+    "venueId": 17,
+    "estimatedAttendees": 700,
+    "attendeeIds": [
+      "b8c9d0e1-f2a3-44b5-c6d7-e8f9a0b1c2d4"
+    ]
+  },
+  {
+    "id": "f4357372-7520-4a1c-b2b9-778779ea0fda",
+    "title": "Old Billingsgate January",
+    "description": "Corporate event at Old Billingsgate",
+    "type": "Conference",
+    "startTime": "2026-01-09T09:00:00",
+    "endTime": "2026-01-09T17:00:00",
+    "venueId": 8,
+    "estimatedAttendees": 2000,
+    "attendeeIds": [
+      "c9d0e1f2-a3b4-45c6-d7e8-f9a0b1c2d3e5"
+    ]
+  },
+  {
+    "id": "ff2c9902-ed4e-4d36-87e1-9a60d64c770f",
+    "title": "Royal Festival Hall January Concert",
+    "description": "Concert series continues",
+    "type": "Social",
+    "startTime": "2026-01-10T19:00:00",
+    "endTime": "2026-01-10T22:00:00",
+    "venueId": 1,
+    "estimatedAttendees": 2600,
+    "attendeeIds": [
+      "d0e1f2a3-b4c5-46d7-e8f9-a0b1c2d3e4f6"
+    ]
+  },
+  {
+    "id": "13d4bfc8-e757-4e97-acca-14bfbff97cb7",
+    "title": "Mid-January Business Summit",
+    "description": "Business summit at The Brewery",
+    "type": "Seminar",
+    "startTime": "2026-01-15T09:00:00",
+    "endTime": "2026-01-15T17:00:00",
+    "venueId": 17,
+    "estimatedAttendees": 950,
+    "attendeeIds": [
+      "e1f2a3b4-c5d6-47e8-f9a0-b1c2d3e4f5a6"
+    ]
+  }
+]

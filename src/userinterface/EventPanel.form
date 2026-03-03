@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="userinterface.EventPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="10" vgap="10">
+    <constraints>
+      <xy x="20" y="20" width="1000" height="750"/>
+    </constraints>
+    <properties/>
+    <border type="empty">
+      <size top="10" left="10" bottom="10" right="10"/>
+    </border>
+    <children>
+      <grid id="topPanel" layout-manager="BorderLayout" hgap="0" vgap="5">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="formPanel" layout-manager="GridBagLayout">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="etched" title="Event Information"/>
+            <children>
+              <component id="a1b2c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Title:"/>
+                </properties>
+              </component>
+              <component id="c3d4e" class="javax.swing.JTextField" binding="titleField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="e5f6g" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Type:"/>
+                </properties>
+              </component>
+              <component id="g7h8i" class="javax.swing.JComboBox" binding="typeComboBox">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.5" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="i9j0k" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Estimated Attendees:"/>
+                </properties>
+              </component>
+              <component id="k1l2m" class="javax.swing.JTextField" binding="estimatedAttendeesField">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.5" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="v1l2m" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Venue:"/>
+                </properties>
+              </component>
+              <component id="v2c3b" class="javax.swing.JComboBox" binding="venueComboBox">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.5" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c1t2y" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="City:"/>
+                </properties>
+              </component>
+              <component id="c3i4t" class="javax.swing.JTextField" binding="cityField">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.5" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="m3n4o" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Start Date (dd/MM/yyyy):"/>
+                </properties>
+              </component>
+              <component id="o5p6q" class="javax.swing.JTextField" binding="startDateField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.5" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <columns value="10"/>
+                </properties>
+              </component>
+              <component id="q7r8s" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Time (HH:mm):"/>
+                </properties>
+              </component>
+              <component id="s9t0u" class="javax.swing.JTextField" binding="startTimeField">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.5" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <columns value="5"/>
+                </properties>
+              </component>
+              <component id="u1v2w" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="End Date (dd/MM/yyyy):"/>
+                </properties>
+              </component>
+              <component id="w3x4y" class="javax.swing.JTextField" binding="endDateField">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.5" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <columns value="10"/>
+                </properties>
+              </component>
+              <component id="y5z6a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Time (HH:mm):"/>
+                </properties>
+              </component>
+              <component id="a7b8c" class="javax.swing.JTextField" binding="endTimeField">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.5" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <columns value="5"/>
+                </properties>
+              </component>
+              <component id="c9d0e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Description:"/>
+                </properties>
+              </component>
+              <scrollpane id="e1f2g" binding="descriptionScrollPane">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="g3h4i" class="javax.swing.JTextArea" binding="descriptionArea">
+                    <constraints/>
+                    <properties>
+                      <lineWrap value="true"/>
+                      <rows value="3"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="buttonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="i5j6k" class="javax.swing.JButton" binding="createButton">
+                <constraints/>
+                <properties>
+                  <text value="Create Event"/>
+                </properties>
+              </component>
+              <component id="k7l8m" class="javax.swing.JButton" binding="deleteButton">
+                <constraints/>
+                <properties>
+                  <text value="Delete Selected"/>
+                </properties>
+              </component>
+              <component id="m9n0o" class="javax.swing.JButton" binding="clearButton">
+                <constraints/>
+                <properties>
+                  <text value="Clear Form"/>
+                </properties>
+              </component>
+              <component id="q3r4s" class="javax.swing.JButton" binding="editDetailsButton">
+                <constraints/>
+                <properties>
+                  <text value="Edit Details"/>
+                </properties>
+              </component>
+              <component id="o1p2q" class="javax.swing.JButton" binding="viewButton">
+                <constraints/>
+                <properties>
+                  <text value="View Details"/>
+                </properties>
+              </component>
+              <component id="s7t8u" class="javax.swing.JButton" binding="findSlotButton">
+                <constraints/>
+                <properties>
+                  <text value="Find Next Available Slot"/>
+                </properties>
+              </component>
+              <component id="u9v0w" class="javax.swing.JButton" binding="generateScheduleButton">
+                <constraints/>
+                <properties>
+                  <text value="Generate Schedule"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <scrollpane id="tableScroll" binding="tableScrollPane">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="s5t6u" class="javax.swing.JTable" binding="eventTable">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

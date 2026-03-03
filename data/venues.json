@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1,
+    "name": "Royal Festival Hall",
+    "capacity": 2700,
+    "city": "London",
+    "address": "Belvedere Road, South Bank",
+    "facilities": [
+      "Stage",
+      "Audio System",
+      "Lighting",
+      "Backstage",
+      "WiFi",
+      "Catering Kitchen"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ExCeL London",
+    "capacity": 5000,
+    "city": "London",
+    "address": "Royal Victoria Dock, Custom House",
+    "facilities": [
+      "Exhibition Halls",
+      "WiFi",
+      "Parking",
+      "Catering",
+      "Registration Desk",
+      "Audio Visual"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The O2 Arena",
+    "capacity": 20000,
+    "city": "London",
+    "address": "Peninsula Square, Greenwich",
+    "facilities": [
+      "Stage",
+      "VIP Boxes",
+      "Bars",
+      "Restaurants",
+      "Parking",
+      "Security"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Wembley Stadium",
+    "capacity": 90000,
+    "city": "London",
+    "address": "Wembley Park, HA9 0WS",
+    "facilities": [
+      "Stadium Seating",
+      "VIP Suites",
+      "Catering",
+      "Parking",
+      "Security",
+      "Medical Facilities"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Barbican Centre",
+    "capacity": 1949,
+    "city": "London",
+    "address": "Silk Street, EC2Y 8DS",
+    "facilities": [
+      "Concert Hall",
+      "Theatre",
+      "Cinema",
+      "Art Gallery",
+      "Restaurant",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Alexandra Palace",
+    "capacity": 10400,
+    "city": "London",
+    "address": "Alexandra Palace Way, Wood Green",
+    "facilities": [
+      "Main Hall",
+      "Ice Rink",
+      "Theatre",
+      "Parking",
+      "Outdoor Space",
+      "Catering"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Tobacco Dock",
+    "capacity": 3500,
+    "city": "London",
+    "address": "Tobacco Quay, Wapping Lane",
+    "facilities": [
+      "Historic Warehouse",
+      "Multiple Rooms",
+      "Catering Kitchen",
+      "WiFi",
+      "Loading Bay"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Old Billingsgate",
+    "capacity": 2500,
+    "city": "London",
+    "address": "16 Lower Thames Street, EC3R 6DX",
+    "facilities": [
+      "Victorian Architecture",
+      "Thames Views",
+      "Vaults",
+      "Catering",
+      "WiFi",
+      "Parking"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Roundhouse Camden",
+    "capacity": 3300,
+    "city": "London",
+    "address": "Chalk Farm Road, NW1 8EH",
+    "facilities": [
+      "Circular Main Space",
+      "Balcony",
+      "Bar",
+      "Studio Spaces",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Olympia London",
+    "capacity": 19000,
+    "city": "London",
+    "address": "Hammersmith Road, W14 8UX",
+    "facilities": [
+      "Exhibition Halls",
+      "Conference Centre",
+      "Catering",
+      "WiFi",
+      "Parking"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Troxy",
+    "capacity": 3100,
+    "city": "London",
+    "address": "490 Commercial Road, E1 0HX",
+    "facilities": [
+      "Art Deco Ballroom",
+      "Stage",
+      "Balcony",
+      "Bars",
+      "Dressing Rooms"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Electric Ballroom",
+    "capacity": 1500,
+    "city": "London",
+    "address": "184 Camden High Street, NW1 8QP",
+    "facilities": [
+      "Main Floor",
+      "Balcony",
+      "Bar",
+      "Sound System",
+      "Lighting Rig"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Ministry of Sound",
+    "capacity": 1500,
+    "city": "London",
+    "address": "103 Gaunt Street, SE1 6DP",
+    "facilities": [
+      "Main Room",
+      "Secondary Room",
+      "VIP Area",
+      "Bar",
+      "Sound System"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Printworks London",
+    "capacity": 5000,
+    "city": "London",
+    "address": "Surrey Quays Road, SE16 7PJ",
+    "facilities": [
+      "Industrial Space",
+      "Multiple Rooms",
+      "Outdoor Terrace",
+      "Bar",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Koko Camden",
+    "capacity": 1500,
+    "city": "London",
+    "address": "1A Camden High Street, NW1 7JE",
+    "facilities": [
+      "Main Floor",
+      "Circle Balcony",
+      "Gallery",
+      "Dressing Rooms",
+      "Bar"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Fabric Nightclub",
+    "capacity": 1600,
+    "city": "London",
+    "address": "77A Charterhouse Street, EC1M 6HJ",
+    "facilities": [
+      "Three Rooms",
+      "Sound System",
+      "Bodysonic Dancefloor",
+      "Bars",
+      "Cloakroom"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "The Brewery",
+    "capacity": 1000,
+    "city": "London",
+    "address": "52 Chiswell Street, EC1Y 4SD",
+    "facilities": [
+      "Porter Tun Room",
+      "Multiple Event Spaces",
+      "Catering",
+      "WiFi",
+      "Historic Building"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Shakespeare\u0027s Globe Theatre",
+    "capacity": 1400,
+    "city": "London",
+    "address": "21 New Globe Walk, SE1 9DT",
+    "facilities": [
+      "Open Air Theatre",
+      "Indoor Theatre",
+      "Exhibition Space",
+      "Restaurant",
+      "Bar"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Camden Assembly",
+    "capacity": 500,
+    "city": "London",
+    "address": "49 Chalk Farm Road, NW1 8AN",
+    "facilities": [
+      "Main Room",
+      "Balcony",
+      "Bar",
+      "Stage",
+      "Sound System"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Village Underground",
+    "capacity": 850,
+    "city": "London",
+    "address": "54 Holywell Lane, EC2A 3PQ",
+    "facilities": [
+      "Main Space",
+      "Rooftop",
+      "Art Gallery",
+      "Bar",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "The Underworld Camden",
+    "capacity": 500,
+    "city": "London",
+    "address": "174 Camden High Street, NW1 0NE",
+    "facilities": [
+      "Underground Venue",
+      "Stage",
+      "Bar",
+      "Sound System",
+      "Lighting"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Heaven Nightclub",
+    "capacity": 1600,
+    "city": "London",
+    "address": "Villiers Street, WC2N 6NG",
+    "facilities": [
+      "Main Room",
+      "Secondary Rooms",
+      "Bars",
+      "VIP Area",
+      "Sound System"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Eventim Apollo",
+    "capacity": 5039,
+    "city": "London",
+    "address": "45 Queen Caroline Street, W6 9QH",
+    "facilities": [
+      "Main Auditorium",
+      "VIP Boxes",
+      "Bars",
+      "Merchandise Area",
+      "Parking"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Queen Elizabeth Hall",
+    "capacity": 917,
+    "city": "London",
+    "address": "Belvedere Road, South Bank",
+    "facilities": [
+      "Concert Hall",
+      "Foyer Space",
+      "Catering",
+      "WiFi",
+      "Accessibility Features"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "The Oval Cricket Ground",
+    "capacity": 23500,
+    "city": "London",
+    "address": "Kennington, SE11 5SS",
+    "facilities": [
+      "Cricket Ground",
+      "Pavilion",
+      "Hospitality Suites",
+      "Catering",
+      "Parking"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Lords Cricket Ground",
+    "capacity": 31000,
+    "city": "London",
+    "address": "St John\u0027s Wood, NW8 8QN",
+    "facilities": [
+      "Cricket Ground",
+      "Pavilion",
+      "Museum",
+      "Media Centre",
+      "Hospitality"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Emirates Stadium",
+    "capacity": 60704,
+    "city": "London",
+    "address": "Hornsey Road, N7 7AJ",
+    "facilities": [
+      "Stadium",
+      "VIP Boxes",
+      "Museum",
+      "Shop",
+      "Catering",
+      "Parking"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Stamford Bridge",
+    "capacity": 40853,
+    "city": "London",
+    "address": "Fulham Road, SW6 1HS",
+    "facilities": [
+      "Stadium",
+      "Museum",
+      "Shop",
+      "Hospitality Suites",
+      "Parking"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Twickenham Stadium",
+    "capacity": 82000,
+    "city": "London",
+    "address": "Whitton Road, TW2 7BA",
+    "facilities": [
+      "Rugby Stadium",
+      "Museum",
+      "Conference Centre",
+      "Catering",
+      "Parking"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Battersea Arts Centre",
+    "capacity": 800,
+    "city": "London",
+    "address": "Lavender Hill, SW11 5TN",
+    "facilities": [
+      "Multiple Spaces",
+      "Theatre",
+      "Bar",
+      "Cafe",
+      "WiFi",
+      "Garden"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Rich Mix",
+    "capacity": 300,
+    "city": "London",
+    "address": "35-47 Bethnal Green Road, E1 6LA",
+    "facilities": [
+      "Cinema",
+      "Performance Space",
+      "Cafe Bar",
+      "Gallery",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Bush Hall",
+    "capacity": 400,
+    "city": "London",
+    "address": "310 Uxbridge Road, W12 7LJ",
+    "facilities": [
+      "Edwardian Ballroom",
+      "Stage",
+      "Bar",
+      "Balcony",
+      "Green Room"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "The Clapham Grand",
+    "capacity": 1250,
+    "city": "London",
+    "address": "21-25 St John\u0027s Hill, SW11 1TT",
+    "facilities": [
+      "Main Hall",
+      "Balcony",
+      "Bars",
+      "VIP Area",
+      "Stage"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Omeara",
+    "capacity": 325,
+    "city": "London",
+    "address": "6 O\u0027Meara Street, SE1 1TE",
+    "facilities": [
+      "Railway Arch Venue",
+      "Stage",
+      "Bar",
+      "Sound System",
+      "Lighting"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Corsica Studios",
+    "capacity": 600,
+    "city": "London",
+    "address": "4-5 Elephant Road, SE17 1LB",
+    "facilities": [
+      "Two Rooms",
+      "Industrial Space",
+      "Bar",
+      "Sound System",
+      "Outdoor Area"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "The Nest Dalston",
+    "capacity": 200,
+    "city": "London",
+    "address": "36 Stoke Newington Road, N16 7XJ",
+    "facilities": [
+      "Basement Club",
+      "Bar",
+      "Dance Floor",
+      "Sound System",
+      "Booth Seating"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Oval Space",
+    "capacity": 800,
+    "city": "London",
+    "address": "29-32 The Oval, E2 9DT",
+    "facilities": [
+      "Main Space",
+      "Mezzanine",
+      "Outdoor Terrace",
+      "Bar",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Moth Club",
+    "capacity": 250,
+    "city": "London",
+    "address": "Valette Street, E9 6NU",
+    "facilities": [
+      "Victorian Hall",
+      "Stage",
+      "Bar",
+      "Dance Floor",
+      "Garden"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "EartH Hackney",
+    "capacity": 700,
+    "city": "London",
+    "address": "11-17 Stoke Newington Road, N16 8BH",
+    "facilities": [
+      "Theatre",
+      "Hall",
+      "Kitchen",
+      "Bar",
+      "WiFi",
+      "Art Deco Interior"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "The Social",
+    "capacity": 200,
+    "city": "London",
+    "address": "5 Little Portland Street, W1W 7JD",
+    "facilities": [
+      "Basement Bar",
+      "DJ Booth",
+      "Dance Floor",
+      "Sound System",
+      "Intimate Space"
+    ]
+  }
+]

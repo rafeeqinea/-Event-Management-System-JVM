@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="userinterface.AttendeePanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="10" vgap="10">
+    <constraints>
+      <xy x="20" y="20" width="900" height="700"/>
+    </constraints>
+    <properties/>
+    <border type="empty">
+      <size top="10" left="10" bottom="10" right="10"/>
+    </border>
+    <children>
+      <grid id="topPanel" layout-manager="BorderLayout" hgap="0" vgap="5">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="formPanel" layout-manager="GridBagLayout">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="etched" title="Add Attendees to Master List "/>
+            <children>
+              <component id="a1b2c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Name:*"/>
+                </properties>
+              </component>
+              <component id="c3d4e" class="javax.swing.JTextField" binding="nameField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <columns value="25"/>
+                </properties>
+              </component>
+              <component id="e5f6g" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Email:*"/>
+                </properties>
+              </component>
+              <component id="g7h8i" class="javax.swing.JTextField" binding="emailField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <columns value="25"/>
+                </properties>
+              </component>
+              <component id="i9j0k" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Phone:"/>
+                </properties>
+              </component>
+              <component id="k1l2m" class="javax.swing.JTextField" binding="phoneField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <columns value="20"/>
+                </properties>
+              </component>
+              <component id="m3n4o" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Organization:"/>
+                </properties>
+              </component>
+              <component id="o5p6q" class="javax.swing.JTextField" binding="organizationField">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <columns value="25"/>
+                </properties>
+              </component>
+              <component id="u3v4w" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="* Required fields"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="buttonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="s9t0u" class="javax.swing.JButton" binding="addButton">
+                <constraints/>
+                <properties>
+                  <text value="Add Attendee"/>
+                </properties>
+              </component>
+              <component id="u1v2w" class="javax.swing.JButton" binding="deleteButton">
+                <constraints/>
+                <properties>
+                  <text value="Delete Selected"/>
+                </properties>
+              </component>
+              <component id="w3x4y" class="javax.swing.JButton" binding="clearButton">
+                <constraints/>
+                <properties>
+                  <text value="Clear Form"/>
+                </properties>
+              </component>
+              <component id="y5z6a" class="javax.swing.JButton" binding="viewEventsButton">
+                <constraints/>
+                <properties>
+                  <text value="View Registered Events"/>
+                </properties>
+              </component>
+              <component id="b1c2d" class="javax.swing.JButton" binding="editDetailsButton">
+                <constraints/>
+                <properties>
+                  <text value="Edit Details"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <scrollpane id="tableScroll">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a7b8c" class="javax.swing.JTable" binding="attendeeTable">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="bottomPanel" layout-manager="BorderLayout" hgap="0" vgap="5">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="etched" title="Event Registration"/>
+        <children>
+          <grid id="registrationFormPanel" layout-manager="FlowLayout" hgap="10" vgap="5" flow-align="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="reg1" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Register to Event:"/>
+                </properties>
+              </component>
+              <component id="s1t2u" class="javax.swing.JComboBox" binding="eventComboBox">
+                <constraints/>
+                <properties>
+                  <preferredSize width="300" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="registrationButtonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="x7y8z" class="javax.swing.JButton" binding="registerToEventButton">
+                <constraints/>
+                <properties>
+                  <text value="Register to Event"/>
+                </properties>
+              </component>
+              <component id="unreg1" class="javax.swing.JButton" binding="unregisterButton">
+                <constraints/>
+                <properties>
+                  <text value="Unregister from Events"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
